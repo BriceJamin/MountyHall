@@ -1,0 +1,52 @@
+Commencer avec Tomawak.
+
+Passer un coucou sur le forum et sur l'irc en renseignant son numéro de troll.
+Saluer les trollinets des alentours.
+
+Lieux :
+Ne pas se ruer sur les tours pour prendre le TGV, c'est payant.
+
+Equipement :
+Ne pas prendre les armes à deux mains, c'est trop lourd et bidon.
+Opter pour des équipements léger et défensifs.
+Car l'offensif boostant PM se fait rare :
+- ours (lourd pour un trollinet)
+- feu
+- cyclope
+=> " templates feu pas évident à trouver"
+
+Au niveau 1 :
+Montez le plus vite possible les compétences de race à 80%.
+Pour cela, à chaque tour, lancer un PM puis se camoufler (PM décamoufle).
+Ne pas s'affoler des échecs, c'est normal, faut améliorer tout ça.
+Chaque amélioration en % diminue le % d'échec.
+Trouver des potions ou des parchos et défoncer le premier troll < N+2.
+Ensuite acheter Vue, puis plus tard Déplacement Eclair.
+
+
+Compétence :
+
+Toujours avoir une vue paire ou un multiple de 4 (encore mieux. Pourquoi ?).
+Acheter dans l'ordre Vue/Esquive/Dla/Pv/régen.
+Apprendre dans l'ordre :
+- Déplacement éclair
+- Insulte
+- Connaissance des monstres
+- Pistage
+
+Niveau 10 quelconque :
+11h03 de dla (2 améliorations)
+60pv (3amélio)
+10 de vue (6amélio)
+6 d'esquive (3amélio)
+2 de régen (1 amélio)
+
+Niveau 10 défensif :
+11h03 de dla (2 amélio)
+70pv (4amélio)
+8 de vue (4amélio)
+7 d'esquive (4amélio)
+2 de régen (1 amélio)
+
+Plusieurs profils : 
+Sniper pur, Sniper/Esquiveur, Tombourrin
