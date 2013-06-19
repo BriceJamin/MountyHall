@@ -4,3 +4,5 @@ moc_*
 ui_*
 
 *.pro.user
+
+*.session
