@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QNetworkAccessManager>
 
 namespace Ui {
     class MainWindow;
@@ -18,6 +19,12 @@ protected:
 
 private:
     Ui::MainWindow *ui;
+    QNetworkAccessManager* _networkManager;
+
+private slots:
+    void on_pushButton_clicked();
+    void replyFinished(QNetworkReply*);
+    void downloadProgress(qint64,qint64);
 };
 
 #endif // MAINWINDOW_H
