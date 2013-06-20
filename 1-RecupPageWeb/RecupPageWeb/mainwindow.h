@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QNetworkAccessManager>
+#include "networkdownloader.h"
 
 namespace Ui {
     class MainWindow;
@@ -19,12 +19,14 @@ protected:
 
 private:
     Ui::MainWindow *ui;
-    QNetworkAccessManager* _networkManager;
+    NetworkDownloader* _networkDownloader;
 
 private slots:
     void on_pushButton_clicked();
-    void replyFinished(QNetworkReply*);
-    void downloadProgress(qint64,qint64);
+    void bytesReceived(qint64);
+    void bytesTotal(qint64);
+    void error(const QString&);
+    void finished(const QFile&);
 };
 
 #endif // MAINWINDOW_H
