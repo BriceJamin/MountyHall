@@ -3,6 +3,6 @@ Makefile
 moc_*
 ui_*
 
-*.pro.user
+*.pro.user*
 
 *.session
