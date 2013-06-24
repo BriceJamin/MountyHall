@@ -26,7 +26,7 @@ private slots:
     void bytesReceived(qint64);
     void bytesTotal(qint64);
     void error(const QString&);
-    void finished(const QFile&);
+    void finished(QString);
 };
 
 #endif // MAINWINDOW_H

@@ -16,8 +16,8 @@ MainWindow::MainWindow(QWidget *parent) :
              this, SLOT(bytesTotal(qint64)));
     connect(_networkDownloader, SIGNAL(sig_error(const QString&)),
              this, SLOT(error(const QString&)));
-    connect(_networkDownloader, SIGNAL(sig_finished(const QFile&)),
-             this, SLOT(finished(const QFile&)));
+    connect(_networkDownloader, SIGNAL(sig_finished(QString)),
+             this, SLOT(finished(QString)));
 }
 
 MainWindow::~MainWindow()
@@ -43,8 +43,7 @@ void MainWindow::on_pushButton_clicked()
     qDebug() << Q_FUNC_INFO;
 
     ui->progressBar->setValue(0);
-    ui->progressBar->setMaximum(0);
-    ui->progressBar->setFormat("%p% (%v/?o)");
+    ui->progressBar->setFormat("%p% (%v o/?)");
     ui->pushButton->setEnabled(false);
     ui->statusBar->showMessage("Téléchargement...");
 
@@ -60,7 +59,19 @@ void MainWindow::bytesReceived(qint64 bytesReceived)
 {
     qDebug() << Q_FUNC_INFO << bytesReceived;
 
+    qDebug() << Q_FUNC_INFO
+             << "value:" << ui->progressBar->value()
+             << "max:"   << ui->progressBar->maximum();
+
+    if(bytesReceived > ui->progressBar->maximum())
+    {
+        qDebug() << Q_FUNC_INFO << "bytesReceived > ui->progressBar->maximum()";
+        ui->progressBar->setMaximum(bytesReceived);
+    }
+
     ui->progressBar->setValue(bytesReceived);
+
+    qDebug() << Q_FUNC_INFO << "newValue:" << ui->progressBar->value();
 }
 
 void MainWindow::bytesTotal(qint64 bytesTotal)
@@ -70,10 +81,10 @@ void MainWindow::bytesTotal(qint64 bytesTotal)
     if(bytesTotal <= 0)
     {
         bytesTotal = 0;
-        ui->progressBar->setFormat("%p% (%vo/?o)");
+        ui->progressBar->setFormat("(%v o/?)");
     }
     else
-        ui->progressBar->setFormat("%p% (%vo/%mo)");
+        ui->progressBar->setFormat("%p% (%v o/%m o)");
 
     ui->progressBar->setMaximum(bytesTotal);
 }
@@ -83,20 +94,33 @@ void MainWindow::error(const QString& errorString)
     qDebug() << Q_FUNC_INFO << errorString;
 
     ui->statusBar->showMessage("Error: " + errorString);
+    ui->pushButton->setEnabled(true);
+    ui->progressBar->setValue(0);
+    ui->progressBar->setMaximum(100);
+    ui->progressBar->setFormat("%p%");
 }
 
-void MainWindow::finished(const QFile& downloaded)
+void MainWindow::finished(QString downloaded)
 {
-    QFile file(downloaded.fileName());
-    qDebug() << Q_FUNC_INFO << file.fileName();
+    qDebug() << Q_FUNC_INFO << downloaded;
 
     ui->statusBar->showMessage("Téléchargé.");
     ui->pushButton->setEnabled(true);
-    ui->progressBar->setFormat("%p% (%mo)");
+    ui->progressBar->setFormat("%p% (%m o)");
 
-    file.open(QIODevice::ReadOnly);
+/*
+    QFile file(downloaded);
+    bool opened = file.open(QIODevice::ReadOnly);
+
+    if(!opened)
+    {
+        emit error(file.errorString());
+        return;
+    }
+
     QString data = file.readAll();
     file.close();
 
     qDebug() << Q_FUNC_INFO << "data :" << endl << data;
+*/
 }

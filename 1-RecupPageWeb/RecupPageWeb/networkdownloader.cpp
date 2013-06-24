@@ -1,4 +1,5 @@
 #include "networkdownloader.h"
+#include "url.h"
 
 #include <QUrl>
 #include <QDebug>
@@ -6,8 +7,12 @@
 #include <QFile>
 
 NetworkDownloader::NetworkDownloader(QObject* parent)
-    : QObject(parent), _bytesReceived(-1), _bytesTotal(-1)
+    : QObject(parent),
+      _bytesReceived(-1),
+      _bytesTotal(-1)
 {
+    qDebug() << Q_FUNC_INFO;
+
     _networkAccessManager = new QNetworkAccessManager(this);
     connect(_networkAccessManager, SIGNAL(finished(QNetworkReply*)),
              this, SLOT(finished(QNetworkReply*)));
@@ -18,11 +23,14 @@ bool NetworkDownloader::get(const QString& urlString,
 {
     qDebug() << Q_FUNC_INFO;
 
-    QUrl url(urlString);
+    _bytesReceived = -1;
+    _bytesTotal = -1;
+    QUrl url = Url::http(urlString);
 
     if(!url.isValid())
     {
         qDebug() << Q_FUNC_INFO << "!url.isValid()";
+        emit sig_error("url is not valid");
         return false;
     }
 
@@ -33,6 +41,7 @@ bool NetworkDownloader::get(const QString& urlString,
     if(!valid)
     {
         qDebug() << Q_FUNC_INFO << "file !valid";
+        emit sig_error("open file failed");
         return false;
     }
 
@@ -70,7 +79,7 @@ void NetworkDownloader::setBytesTotal(qint64 total)
 
 void NetworkDownloader::downloadProgress(qint64 received, qint64 total)
 {
-    qDebug() << Q_FUNC_INFO;
+    qDebug() << Q_FUNC_INFO << received << total;
 
     setBytesTotal(total);
     setBytesReceived(received);
@@ -79,26 +88,53 @@ void NetworkDownloader::downloadProgress(qint64 received, qint64 total)
 void NetworkDownloader::finished(QNetworkReply* networkReply)
 {
     qDebug() << Q_FUNC_INFO;
+    networkReply->deleteLater();
 
     QNetworkReply::NetworkError networkError;
     networkError = networkReply->error();
 
-    if(networkError == QNetworkReply::NoError)
+    if(networkError != QNetworkReply::NoError)
     {
-        _bytesReceived = _bytesTotal;
-        emit sig_bytesReceived(_bytesReceived);
+        qDebug() << Q_FUNC_INFO << "!= NoError";
 
-        QFile file(_fileName);
-        file.open(QIODevice::WriteOnly);
-        file.write(networkReply->readAll());
-        file.close();
-        networkReply->deleteLater();
-        emit sig_finished(file);
-    }
-    else
-    {
         QString errorString = networkReply->errorString();
-        networkReply->deleteLater();
+        //networkReply->deleteLater();
+
         emit sig_error(errorString);
+
+        return;
     }
+
+
+    //setBytesTotal(_bytesTotal);
+    //if(_bytesTotal > 0)
+    //    setBytesReceived(_bytesTotal);
+
+    QFile file(_fileName);
+    file.remove();
+
+    bool opened = file.open(QIODevice::WriteOnly);
+    if(!opened)
+    {
+        qDebug() << Q_FUNC_INFO << "!opened";
+
+        emit sig_error(file.errorString());
+
+        return;
+    }
+
+    if(_bytesReceived > 0)
+    {
+        bool writen = file.write(networkReply->readAll());
+        if(!writen)
+        {
+            qDebug() << Q_FUNC_INFO << "!writen";
+            emit sig_error(file.errorString());
+        }
+    }
+
+    file.close();
+
+    //networkReply->deleteLater();
+    emit sig_finished(file.fileName());
 }

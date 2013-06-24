@@ -6,7 +6,9 @@ TARGET = RecupPageWeb
 TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp \
-    networkdownloader.cpp
+    networkdownloader.cpp \
+    url.cpp
 HEADERS += mainwindow.h \
-    networkdownloader.h
+    networkdownloader.h \
+    url.h
 FORMS += mainwindow.ui

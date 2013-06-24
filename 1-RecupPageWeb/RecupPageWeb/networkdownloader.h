@@ -16,8 +16,8 @@ public:
 signals:
     void sig_bytesReceived(qint64);
     void sig_bytesTotal(qint64);
-    void sig_error(const QString&);
-    void sig_finished(const QFile&);
+    void sig_error(QString);
+    void sig_finished(QString);
 
 private:
     void setBytesReceived(qint64);
