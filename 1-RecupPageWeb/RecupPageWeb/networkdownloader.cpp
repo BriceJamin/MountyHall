@@ -30,18 +30,7 @@ bool NetworkDownloader::get(const QString& urlString,
     if(!url.isValid())
     {
         qDebug() << Q_FUNC_INFO << "!url.isValid()";
-        emit sig_error("url is not valid");
-        return false;
-    }
-
-    QFile file(fileName);
-    bool valid = file.open(QIODevice::ReadWrite);
-    file.close();
-
-    if(!valid)
-    {
-        qDebug() << Q_FUNC_INFO << "file !valid";
-        emit sig_error("open file failed");
+        emit sig_error(url.errorString());
         return false;
     }
 
@@ -88,7 +77,7 @@ void NetworkDownloader::downloadProgress(qint64 received, qint64 total)
 void NetworkDownloader::finished(QNetworkReply* networkReply)
 {
     qDebug() << Q_FUNC_INFO;
-    networkReply->deleteLater();
+    networkReply->deleteLater(); // Parait dangereux mais ne semble pas poser de soucis.
 
     QNetworkReply::NetworkError networkError;
     networkError = networkReply->error();
@@ -98,17 +87,10 @@ void NetworkDownloader::finished(QNetworkReply* networkReply)
         qDebug() << Q_FUNC_INFO << "!= NoError";
 
         QString errorString = networkReply->errorString();
-        //networkReply->deleteLater();
-
         emit sig_error(errorString);
 
         return;
     }
-
-
-    //setBytesTotal(_bytesTotal);
-    //if(_bytesTotal > 0)
-    //    setBytesReceived(_bytesTotal);
 
     QFile file(_fileName);
     file.remove();
@@ -119,7 +101,6 @@ void NetworkDownloader::finished(QNetworkReply* networkReply)
         qDebug() << Q_FUNC_INFO << "!opened";
 
         emit sig_error(file.errorString());
-
         return;
     }
 
@@ -129,12 +110,11 @@ void NetworkDownloader::finished(QNetworkReply* networkReply)
         if(!writen)
         {
             qDebug() << Q_FUNC_INFO << "!writen";
+
             emit sig_error(file.errorString());
         }
     }
 
     file.close();
-
-    //networkReply->deleteLater();
     emit sig_finished(file.fileName());
 }
