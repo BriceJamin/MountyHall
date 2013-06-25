@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>285</width>
-    <height>206</height>
+    <width>291</width>
+    <height>285</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>261</width>
-      <height>151</height>
+      <width>271</width>
+      <height>231</height>
      </rect>
     </property>
     <property name="title">
@@ -36,7 +36,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Url:</string>
+      <string>Url</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit">
@@ -49,15 +49,15 @@
       </rect>
      </property>
      <property name="text">
-      <string>http://www.sdz-files.com/cours/html-css/p1/ch3/par_saut_p.html</string>
+      <string>http://serialtueur.free.fr/sdz/post.php</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>9</x>
-       <y>80</y>
-       <width>241</width>
+       <x>10</x>
+       <y>170</y>
+       <width>251</width>
        <height>24</height>
       </rect>
      </property>
@@ -71,8 +71,8 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>7</x>
-       <y>110</y>
+       <x>8</x>
+       <y>200</y>
        <width>251</width>
        <height>23</height>
       </rect>
@@ -103,7 +103,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Destination :</string>
+      <string>Destination</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_2">
@@ -116,9 +116,85 @@
       </rect>
      </property>
      <property name="text">
-      <string>//tmp/par_saut_p.html</string>
+      <string>//home/smallfitz/Documents/MountyHall/0-Temp/post.php</string>
      </property>
     </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valeur</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>161</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>messages</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>161</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>79</y>
+       <width>251</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GET</string>
+     </property>
+    </widget>
+    <zorder>groupBox_2</zorder>
+    <zorder>label</zorder>
+    <zorder>lineEdit</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>progressBar</zorder>
+    <zorder>label_2</zorder>
+    <zorder>lineEdit_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>lineEdit_3</zorder>
+    <zorder>lineEdit_4</zorder>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -126,7 +202,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>285</width>
+     <width>291</width>
      <height>22</height>
     </rect>
    </property>

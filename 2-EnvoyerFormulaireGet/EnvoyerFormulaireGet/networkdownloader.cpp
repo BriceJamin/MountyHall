@@ -8,8 +8,8 @@
 
 NetworkDownloader::NetworkDownloader(QObject* parent)
     : QObject(parent),
-      _bytesReceived(-1),
-      _bytesTotal(-1)
+      _bytesReceived(-2),
+      _bytesTotal(-2)
 {
     qDebug() << Q_FUNC_INFO;
 
@@ -23,8 +23,9 @@ bool NetworkDownloader::get(const QString& urlString,
 {
     qDebug() << Q_FUNC_INFO;
 
-    _bytesReceived = -1;
-    _bytesTotal = -1;
+    _bytesReceived = -2;
+    _bytesTotal = -2;
+
     QUrl url = Url::http(urlString);
 
     if(!url.isValid())
@@ -44,26 +45,55 @@ bool NetworkDownloader::get(const QString& urlString,
     return true;
 }
 
+// Ne pas mettre de get dans l'url, les passer via le QMap
+bool NetworkDownloader::get(const QString& urlString,
+                            const QString& fileName,
+                            const QMap<QString, QString>& nameValueMap)
+{
+    qDebug() << Q_FUNC_INFO << urlString << fileName << nameValueMap;
+
+    QMapIterator<QString, QString> mapIterator(nameValueMap);
+    QString finalUrlString(urlString);
+
+    finalUrlString += "?";
+
+    while (mapIterator.hasNext())
+    {
+        mapIterator.next();
+
+        QString name = mapIterator.key();
+        QString value = mapIterator.value();
+
+        if(!name.isEmpty())
+        {
+           finalUrlString += name;
+           finalUrlString += "=";
+           finalUrlString += value;
+           finalUrlString += "&";
+        }
+    }
+
+    finalUrlString.chop(1);
+
+    qDebug() << "finalUrlString:" << finalUrlString;
+
+    return get(finalUrlString, fileName);
+}
+
 void NetworkDownloader::setBytesReceived(qint64 received)
 {
-    if(received != _bytesReceived)
-    {
-        qDebug() << Q_FUNC_INFO;
+    qDebug() << Q_FUNC_INFO;
 
-        _bytesReceived = received;
-        emit sig_bytesReceived(_bytesReceived);
-    }
+    _bytesReceived = received;
+    emit sig_bytesReceived(_bytesReceived);
 }
 
 void NetworkDownloader::setBytesTotal(qint64 total)
 {
-    if(total != _bytesTotal)
-    {
-        qDebug() << Q_FUNC_INFO;
+    qDebug() << Q_FUNC_INFO;
 
-        _bytesTotal = total;
-        emit sig_bytesTotal(_bytesTotal);
-    }
+    _bytesTotal = total;
+    emit sig_bytesTotal(_bytesTotal);
 }
 
 void NetworkDownloader::downloadProgress(qint64 received, qint64 total)

@@ -5,6 +5,7 @@
 #include <QFile>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
+#include <QMap>
 
 class NetworkDownloader : public QObject
 {
@@ -12,6 +13,7 @@ class NetworkDownloader : public QObject
 public:
     NetworkDownloader(QObject* =0);
     bool get(const QString&, const QString&);
+    bool get(const QString&, const QString&, const QMap<QString, QString>&);
 
 signals:
     void sig_bytesReceived(qint64);
