@@ -6,3 +6,5 @@ ui_*
 *.pro.user*
 
 *.session
+
+*.autosave
