@@ -1,0 +1,157 @@
+Les caracs offensives sont ATT, DEG, MM.
+Les carac défensives sont ESQ, Armure, RM et REG.
+
+ATT augmente les chances de toucher sa cible avec une attaque.
+ESQ réduit les chances d'être touché par les attaques.
+DEG augmente les dégâts des attaques.
+Armure réduit les dégâts des attaques.
+MM augmente les chances d'avoir un sort qui inflige tous ses dégâts.
+RM augmente les chances de réduire les dégâts d'un sort.
+REG augmente la régénration des points de vie.
+
+Il existe deux types d'attaque : physique et magique.
+Les bonus malus (BM) peuvent donc être être :
+- physique (BMP)  DEG : +1, ou DEG : 0/+1
+- magique  (BMM)  DEG : 0/+1
+- les deux (BM)   DEG : +1/+1
+
+Au lancement d'une attaque physique, l'ATT du lanceur est opposé à l'ESQ de la cible.
+  Si (jet d'ATT > jet d'ESQ), l'attaque touche, sinon elle est esquivée (aucun effet).
+  Si l'attaque touche, le DEG de l'attaquant est opposé à l'Armure de la cible.
+  (Jet de DEG - Jet d'armure) représente alors les points de vie perdus par la cible.
+Au lancement d'une attaque magique, MM du lanceur est opposé à la RM de la cible.
+  Le Seuil de Résistance SR représente alors l'écart entre les deux sous forme de %.
+  Plus RM > MM, plus SR grandi, et vice versa.
+  1D100 est lancé, si le jet est > SR, l'attaque magique porte entièrement, sinon elle
+  est résistée et ses dégâts sont diminués.
+A chaque début d'un nouveau tour, REG points de vie sont régénérés.
+
+Le Tom niveau 1 dispose de la compétence Camouflage et du sort PM.
+Il envoit des PM sur sa cible qui ne voit pas d'où il tire.
+Il évite ainsi ses attaques tant qu'il est camouflé.
+
+Il a donc un profil plus offensif que défensif.
+Pour booster son côté offensif, il faut booster le PM.
+
+Le PM est grandement influencé par le nombre de zones de vue.
+
+* Il défini sa portée maximale (en cases) :
+ Zones    Portée maximale
+ 1-4    :       1
+ 5-9    :       2
+10-15   :       3
+16-22   :       4
+23-30   :       5
+31-39   :       6
+
+* Il influence son jet d'attaque :
+Jet d'Attaque : Zones * 1 D6 + BMM d'ATT
+
+* Il influence son jet de dégâts :
+Jet de Dégâts : Zones/2 * 1 D3 + BMM de DEG
+D'où l'intérêt d'avoir un nombre de zones de vue pair pour les dégâts.
+
+Ensuite il faut se focaliser dans un premier temps sur le côté offensif des 
+bonus, en privilégiant dans l'ordre :
+- La vue (pour booster le PM)
+- Les bonus magiques d'ATT (pour toucher sa cible)
+- les bonus magiques de DEG (pour blesser sa cible)
+- la MM (pour éviter la réduction des dommages)
+Sans oublier qu'il est préférable de ne rien prendre que de prendre quelque
+chose qui a un malus de temps.
+
+
+Pour la tête : Casques
+----------------------
+4480616   150 GG'    Casque en cuir Armure : +1 | RM : +6 %
+6398056   50 GG'     Lorgnons ESQ : -1 | Vue : +1 | MM : +8 %
+5842020   10 GG'     Turban RM : +12 % (min)
+532293    300 GG'    Turban RM : +20 % (max)
+Lorgnons est offensif et a +1 en vue.
+Mon choix se porte sur :
+6398056   50 GG'     Lorgnons ESQ : -1 | Vue : +1 | MM : +8 %
+
+
+Pour le cou : Talismans
+-----------------------
+Aucun bonus de vue, ni de bonus magiques d'ATT ou de DEG.
+Reste les bonus de MM parfois accompagnés de malus REG.
+Or je n'ai que REG=1, je ne peux pas me permettre de le perdre.
+Il reste donc :
+1919894   1000 GG'   Collier de pierre RM : +8 % | MM : +8 %
+1829559   1200 GG'   Collier de pierre RM : +7 % | MM : +10 %
+La RM je m'en fiche, c'est surtout la MM qui m'intéresse.
+Et celui qui a le plus fort MM est 1829559.
+Mon choix se porte sur :
+1829559   1200 GG'   Collier de pierre RM : +7 % | MM : +10 %
+
+
+Pour le corps : Armures
+-----------------------
+Aucun bonus de vue, ni de bonus magiques d'ATT ou de DEG.
+Reste les bonus de MM, parfois accompagné de malus ESQ : -3.
+Or je n'ai que ESQ=3, je ne peux pas me permettre de le perdre.
+Il reste donc :
+1457252   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +10 %
+1660356   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +8 %
+173469    200 GG'    Tunique ESQ : +1 | RM : +8 % | MM : +9 %
+2337537   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +8 %
+1182335   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +10 %
+2341569   150 GG'    Tunique ESQ : +1 | RM : +10 % | MM : +6 %
+895513    200 GG'    Tunique ESQ : +1 | RM : +9 % | MM : +7 %
+2318601   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +7 %
+2681519   100 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +8 %
+2877674   200 GG'    Tunique ESQ : +1 | RM : +8 % | MM : +8 %
+4639274   2000 GG'   Tunique de Résistance ESQ : +1 | Armure : +0\+1 | RM : +8 % | MM : +6 %
+La Tunique a un MM:+10% max contrairement a celle de Résistance qui a un MM:+6% max.
+N'ayant aucune armure magique, cette dernière me convient le plus.
+Mais elle a un template, et elle vaut peut être son prix affiché.
+Mon choix se porte donc sur 4639274, sinon sur 1182335 :
+4639274   2000 GG'   Tunique de Résistance ESQ : +1 | Armure : +0\+1 | RM : +8 % | MM : +6 %
+1182335   200 GG'    Tunique ESQ : +1 | RM : +6 % | MM : +10 %
+
+
+Pour les bras : Armes 1 et 2 mains et Boucliers
+-----------------------------------------------
+
+* Armes
+  -----
+Les armes ayant un bonus de vue sont les armes à 1 main suivantes :
+4036280   100 GG'    Torche ATT : +1 | DEG : +1 | Vue : +1
+664541    100 GG'    Torche ATT : +1 | DEG : +1 | Vue : +1
+Comme elles ont les même caractéristiques, mon choix se portera sur celle
+ayant le poids le plus faible.
+Si elles ont le même poids, alors mon choix se portera sur celle ayant le meilleur état.
+
+* Boucliers
+  ---------
+Sans surprise, aucun bonus de vue, ni de bonus magique, ni de MM.
+Afin de décider si ça peut valoir le coup d'en porter un, j'aimerai connaître leur poids.
+
+
+Pour les pieds : Bottes
+-----------------------
+Aucun bonus de vue, ni de bonus magique, ni de MM.
+En écartant celles ayant des malus, il reste :
+3395144   400 GG'    Bottes ESQ : +2
+4139477   400 GG'    Bottes ESQ : +2
+6089106   400 GG'    Jambières en cuir Armure : +1 | RM : +8 %
+3310281   400 GG'    Jambières en cuir Armure : +1 | RM : +9 %
+4555227   2000 GG'   Jambières en cuir de la Salamandre REG : +1 | Armure : +1 | RM : +6 %
+3917327   500 GG'    Jambières en fourrure Armure : +1 | RM : +6 %
+958530    500 GG'    Jambières en fourrure Armure : +1 | RM : +8 %
+Les Bottes aux bonus d'ESQ me paraissent plus intéressantes que celles qui ont un bonus plus
+faible en armure.
+3395144   400 GG'    Bottes ESQ : +2
+4139477   400 GG'    Bottes ESQ : +2
+Mon choix se portera sur les plus légère, et si elles ont le même poids, celles dont l'état
+est le meilleur.
+
+
+Pour les doigts : Anneaux
+-------------------------
+Il n'y en a que deux :
+5036028   5000 GG'    Anneau de Protection Protection : Attaque Gluante
+8200153   10000 GG'   Anneau de Protection Protection : Souffle de Feu
+Les deux m'intéressent évidemment. Mais j'imagine qu'ils sont trop précieux
+vu leur prix.

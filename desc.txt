@@ -1,0 +1,53 @@
+'est produit durant votre Action : 
+
+COUP DE PEPS (Rareté : 2|3)
+Wow, c'est la forme tout d'un coup. La vie est belle et vous vous sentez plutôt bien reposé. Votre fatigue est réduite de 1 points.
+
+DéCONCENTRATION (Rareté : 1)
+Est-ce la Trollette de passage ou simplement un peu de distraction ? Vous ne saurez jamais pourquoi, à cet instant, vous vous êtes complètement déconcentré et avez perdu 12% de concentration
+
+------
+Goinfrer :
+CLONK	( Armure : +1 )
+Un peu dur mais cela renforce les dents. Ce qui ne nous tue pas nous rend plus fort.
+------
+
+Notes à moi même.
+
+Les déplacements.
+*****************
+Un déplacement s'effectue sur 3 axes :
+- X, horizontal, allant de  à
+- Y, vertical, allant de  à 
+- N, profondeur, allant de 0 à -infini
+
+N=0 est la surface, où il est impossible d'attaquer et d'être attaqué.
+
+Coût des déplacements :
+***********************
+A N = 0, pour se déplacer d'une case :
+- en X et/ou en Y, il faut dépenser 1PA
+- en N, il faut dépenser 3PA
+- en N et en X et/ou en Y, il faut dépenser 3PA
+Il est donc plus intéressant de se déplacer en X ou Y en s'enfonçant en N (3PA),
+que de se déplacer en X ou Y (1PA) PUIS de s'enfoncer en N (3PA) : cela économise 1PA.
+
+A N < 0, pour se déplacer d'une case :
+Les actions réservées d'une race ne peuvent être utilisées qu'une seule et unique fois par tour.
+Un troll qui n'a pas un bon % dessus ne les réussi que par miracle.
+Il est donc obligé de les monter le plus rapidement possible.
+Et donc de les utiliser le plus souvent possible, soit idéalement 1 fois (chacun) par DLA.
+
+Les deux actions réservées au Tom sont :
+- la compétence Camouflage : 2 PA, ne s'améliore que s'il réussi.
+- le sortilège Projectile Magique  : 4 PA, ne consomme que 2 PA en cas d'échec.
+
+PM ne peut être utilisé qu'en dessous de la surface et la cible doit être située au même niveau que le troll, à 0 ou 1 case de distance.
+Implique de se déplacer à la surface pour voir des monstres (1PA par déplacement horizontal à la surface).
+Puis de se déplacer au niveau N=-1 (3PA par déplacement vertical).
+Descendre est très cher et n'incite pas à remonter (3PA).
+Les déplacement horizontaux se font alors en restant au même niveau (plus rentable que de remonter -3PA, se déplacer -XPA, et redescendre -3PA) et coûtent 2PA chacun (2x plus qu'à la surface).
+
+Si par malheur le monstre décide de rejoindre le troll sur sa case, le cout du déplacement pour la quitter augmente de 1 : 3PA horizontalement, 4PA verticalement.
+Et c'est ce qui arrive si le monstre est agressif ou qu'il est touché par un PM...
+Il faut donc éviter d'être rejoint pour éviter de dépenser

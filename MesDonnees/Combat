@@ -1,0 +1,240 @@
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNycoVsDlbF+r43y7pvu/Ky+64tkP5KjzU4ISJoCx0crVfisYAokcYZCz0jhg/N8EflBpZ6XvAjbESt+904vAxwz081nf6bJSXvU=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz54Vio1HCG1nzPkccPjkdMHZFQFIfBL9uzu0EGfMrpS0TFFEfHpNVm5R4HbkKUjfxBh9kVV1AhsbY7qZtCEPLTh/cOSgSSfOuKRbhWbtMJhJjfEZDo+ScpbC15rN0w1RHsxhk+7o02RY2NJCGOxXgCf4=
+Received: from games.mountyhall.com ([109.69.220.90]) by COL0-MC4-F35.Col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sat, 15 Jun 2013 08:10:27 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1Uns7W-0002A6-6a
+	for smallfitz@hotmail.fr; Sat, 15 Jun 2013 17:10:26 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_D=E9fenseur_-_Attaque_esquiv=E9e_parfaitement?=  =?iso-8859-1?Q?_d'un_Shaman_Caillouteux_[Nouveau]_(4714601)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sat, 15 Jun 2013 17:10:26 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <82325483a671c44ed3fa60bde623117a@localhost.localdomain>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 15 Jun 2013 15:10:27.0504 (UTC) FILETIME=[77DC5B00:01CE69DA]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMBAT.
+Il était alors aux alentours de : 15/06/2013 17:10:26.
+***********************************************************
+
+Le Monstre n°4714601 (un Shaman Caillouteux [Nouveau]) vous a attaqué magiquement.
+
+Son jet d'Attaque est de......................: 3
+Votre jet d'Esquive est de....................: 7
+
+ Votre adversaire vous a donc RATÉ  grâce à une esquive parfaite.
+Vous ne serez donc pas fragilisé lors des prochaines esquives.
+
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNye7YzbQHrFWCvvYEM4v3zgaxIgX+2cEgdt/vNE2563ps5JrmwJEhgPCeDb2JIXRxh4+Mjryryf6r5c2j8jjxtZ/RC6EiCRQ9wc=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz54p1HELfkH2nZM1baNSZqvAMy7pL1hngsc5mUYWJYR9V0cYtL3i+Mowdfn5o0Yd4zrfM31d5zD9mmp32GTkbVVi+U6h+O6f+CDC1Sr8/OC8GOnfKM7d0k7d2TsVwnvHrg7HjqMBpSHOlCaMKOxvjm7M=
+Received: from games.mountyhall.com ([109.69.220.90]) by COL0-MC2-F34.Col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sat, 15 Jun 2013 17:17:23 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1Uo0ep-0008PI-2K
+	for smallfitz@hotmail.fr; Sun, 16 Jun 2013 02:17:23 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_D=E9fenseur_-_Attaque_d'un_Caillouteux_[Nouve?=  =?iso-8859-1?Q?au]_(4714602)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sun, 16 Jun 2013 02:17:23 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <1e52ade97d37d970eaa00da5397acabb@localhost.localdomain>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 16 Jun 2013 00:17:24.0308 (UTC) FILETIME=[E0334140:01CE6A26]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMBAT.
+Il était alors aux alentours de : 16/06/2013 02:17:23.
+***********************************************************
+
+Le Monstre n°4714602 (un Caillouteux [Nouveau]) vous a attaqué.
+
+Son jet d'Attaque est de......................: 12
+Votre jet d'Esquive est de....................: 10
+
+ Vous avez donc été TOUCHÉ
+
+ Il vous a infligé  13 points de dégâts.
+ Votre Armure vous protège et vous ne perdrez que 10 points de vie.
+ Vous serez, de plus, fragilisé lors des prochaines esquives.
+ Il vous reste actuellement 20 points de vie.
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNyenmSR1yYqtfwRAMJQ3HUKRmYqE5RMDYrX+xdvK9XE4IHP1YXqs70LsHtQNv2towUtmHE58TWufwj6ZquqR9z9KIV2HCx0j0u0=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz57rXmmgL/QCssIHcwSFbrQWNEBf/LTxvr1PF2RILCxxElyOBDhq7BIvljRIEh/nCeM8NiQN+wsoSmEuy43vwhE19n3DAkxuydXAUTjMeZ7IqFQGBf34KqmhTFNrkdNYpu7vuO/dTaVABPA21YfzqdWs=
+Received: from games.mountyhall.com ([109.69.220.90]) by SNT0-MC1-F28.Snt0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sun, 16 Jun 2013 00:01:12 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1Uo6xc-0002Zd-0M
+	for smallfitz@hotmail.fr; Sun, 16 Jun 2013 09:01:12 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_R=E9sultat_du_pouvoir_"Acide"_d'un_Shaman_Cai?=  =?iso-8859-1?Q?llouteux_[Nouveau]_(4714601)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sun, 16 Jun 2013 09:01:11 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <e0768be7401eb8cceed154c132c76f5c@localhost.localdomain>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 16 Jun 2013 07:01:12.0975 (UTC) FILETIME=[499C71F0:01CE6A5F]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : POUVOIR.
+Il était alors aux alentours de : 16/06/2013 09:01:11.
+***********************************************************
+
+
+
+Le monstre n°4714601 (un Shaman Caillouteux [Nouveau]) a utilisé sa capacité spéciale : Acide
+Elle a pour effet : Régénération : -1
+
+Pour une durée de 2 tour(s).
+Seuil de Résistance de la Cible.....: 12 %
+Jet de Résistance...........................: 69
+
+La Cible subit donc pleinement l'effet de la capacité spéciale.
+
+ Vous avez raté votre jet de Résistance Magique et subissez donc pleinement l'effet de la capacité.
+Vous avez augmenté votre Résistance Magique de 1 point.
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNyeWuE4u+imkxFbxBvV8rg9AdpL1g88eQ6Yu2YKrBqrRwOq0AXZATcoGYwLaDszzn0lAfNC0xI/y+VvBSrs4EsBzYRPSZtgJAb8=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz54koaIBnhkSIxhnGoiq3YZ9S8+Lq3yhv9lvLs+bf3C/M343nW9tjazcbZHZ4HszN+15VL3NFq7goeWbvEm+2a9J12iXCCOKnHj95zpLSL383XmZtaT6zjpeREe3sFmO6A/5WMoSnw6L4kfOk8gaKU0c=
+Received: from games.mountyhall.com ([109.69.220.90]) by BAY0-MC4-F7.Bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sun, 16 Jun 2013 00:01:13 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1Uo6xc-0002Zh-4d
+	for smallfitz@hotmail.fr; Sun, 16 Jun 2013 09:01:12 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_D=E9fenseur_-_Attaque_esquiv=E9e_parfaitement?=  =?iso-8859-1?Q?_d'un_Shaman_Caillouteux_[Nouveau]_(4714601)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sun, 16 Jun 2013 09:01:12 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <742ce0e6098c437d71e5d48cf583070c@localhost.localdomain>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 16 Jun 2013 07:01:13.0461 (UTC) FILETIME=[49E69A50:01CE6A5F]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMBAT.
+Il était alors aux alentours de : 16/06/2013 09:01:12.
+***********************************************************
+
+Le Monstre n°4714601 (un Shaman Caillouteux [Nouveau]) vous a attaqué magiquement.
+
+Son jet d'Attaque est de......................: 2
+Votre jet d'Esquive est de....................: 7
+
+ Votre adversaire vous a donc RATÉ  grâce à une esquive parfaite.
+Vous ne serez donc pas fragilisé lors des prochaines esquives.
+
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************

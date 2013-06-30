@@ -1,0 +1,11 @@
+bottes ESQ : +2
+pagne de mailles
+Pagne de Mailles des Tortues	ESQ : +2 | TOUR : +30 min | Armure : +1\+2
+Collier de pierre	RM : +7 % | MM : +10 %	
+Gorgeron en cuir	Armure : +1
+Gorgeron en cuir du Roc	ESQ : -1 | Armure : +1\+1
+Gorgeron en métal	REG : -1 | Armure : +2
+Gantelet	ATT : -2 | ESQ : +1 | DEG : +1 | Armure : +2
+Lorgnons	ESQ : -1 | Vue : +1 | MM : +8 %
+
+************************************************************************

@@ -1,0 +1,254 @@
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNycPI6V6rhO4w6oz1puZPRJCECMfxN6o1Cnv/O98zxW2QGukICZFN105S2VQE9zNP4N1NzNBtXQxy2I52MZvKYfIJVI1MDLdYSQ=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz595Xeu/2wxoy0YrPOIRn1lS9NZTo3ilcEEuq0tie3472NsYdgUvYkVIOJvEI6pP4/Mab3mD3QrITCk0t+IjVb3PixC8h1BmJdaCbfhDWUTR7YKil3B8y8Aq0mNI7dYz7e5IRNxG1Hj29CWrTrCOAMZ0=
+Received: from games.mountyhall.com ([109.69.220.90]) by BAY0-MC3-F29.Bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Wed, 12 Jun 2013 13:21:21 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1UmrXk-0000iC-F4
+	for smallfitz@hotmail.fr; Wed, 12 Jun 2013 22:21:20 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_Comp=E9tence_:_Connaissance_des_Monstres_1_su?=  =?iso-8859-1?Q?r_un_Pseudo-Dragon_[Novice]_(4696216)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Wed, 12 Jun 2013 22:21:20 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <d08ed44df977ffa077fe6aa8c2f702f2@games.mountyhall.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 12 Jun 2013 20:21:21.0635 (UTC) FILETIME=[67599B30:01CE67AA]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMPETENCE.
+Il était alors aux alentours de : 12/06/2013 22:21:20.
+***********************************************************
+
+Vous avez utilisé CONNAISSANCE DES MONSTRES sur un Pseudo-Dragon [Novice] (4696216)
+
+Le Monstre ciblé fait partie des : Démon
+
+Niveau :		Fort (entre 6 et 8)
+Points de Vie :	Moyen (entre 35 et 55)
+Blessure :		0 % (approximativement)
+Dés d'Attaque :	Jamais vu (entre 19 et 21)
+Dés d'Esquive :	Moyen (entre 3 et 5)
+Dés de Dégât :	Très Faible (inférieur à 2) 
+Dés de Régén. :	Faible (inférieur à 1) 
+Armure :		Très Faible (inférieur à 1) 
+Vue :			Faible (entre 2 et 4)
+Capacité spéciale : Coup Perforant - Affecte : Armure | Durée 2 tour(s)
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensxNRGNyaWNyeUXJ8ta8JCRwP7vcrJM87SMuFC7F7nJ5zkH5wPHQ41nDCOexFCvKYXXkGOsuInee8LAEvBEE1vdF+VCi8KsUNU2lLf1ESFLCk=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz55PXFbGUMistlHvrGh6Gu7cm9sPUxqmsMiVPUNsK44V/UeG+hjGS426MdZZabsACPDToR/RfXIkzsetyQl0wQB3YtwjAbUgkF+Ad69/SRPWGwASf+RJhM4/MMOQx9tYXGIC40Rp8hRvMdfwZSnUG6og=
+Received: from games.mountyhall.com ([109.69.220.90]) by SNT0-MC3-F19.Snt0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Wed, 12 Jun 2013 16:37:16 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1UmubL-0000qr-TP
+	for smallfitz@hotmail.fr; Thu, 13 Jun 2013 01:37:15 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_Comp=E9tence_:_Connaissance_des_Monstres_1_su?=  =?iso-8859-1?Q?r_un_Caillouteux_[Nouveau]_(4714602)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Thu, 13 Jun 2013 01:37:15 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <4bb921b9042daa81b159af56b88a508e@games.mountyhall.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 12 Jun 2013 23:37:16.0806 (UTC) FILETIME=[C5FA5A60:01CE67C5]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMPETENCE.
+Il était alors aux alentours de : 13/06/2013 01:37:15.
+***********************************************************
+
+Vous avez utilisé CONNAISSANCE DES MONSTRES sur un Caillouteux [Nouveau] (4714602)
+
+Le Monstre ciblé fait partie des : Humanoide
+
+Niveau :		Faible (inférieur à 3) 
+Points de Vie :	Moyen (entre 30 et 50)
+Blessure :		0 % (approximativement)
+Dés d'Attaque :	Faible (inférieur à 3) 
+Dés d'Esquive :	Faible (entre 2 et 4)
+Dés de Dégât :	Faible (entre 2 et 4)
+Dés de Régén. :	Faible (inférieur à 1) 
+Armure :		Remarquable (entre 9 et 11)
+Vue :			Faible (inférieur à 3) 
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensKMvPmf3fenddbPfmU8MppDurblzh1JalzemeybP124sQhaSzQ01hVjpUbzrsySKnhEpk/kFcJsYzBF0UuTiDMc+yEf8Uy0mxkWIo2XomfQ4=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz50TsyT3U/5Q7MNYSZ1weXKsXPHJIh6BN/kO/OMgduUetnxjbJ2stlymDkrFQdqyHFKSoixdw1Mq9IE1Mpqmmm62uY5fbnjarMYVSks0Xd69kKw1siQD5ApKIeRvdOrpvSQzmTRZJehT3cpJ2xPBnV1s=
+Received: from games.mountyhall.com ([109.69.220.90]) by COL0-MC2-F38.Col0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Fri, 28 Jun 2013 18:54:12 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1UskMe-00064R-9S
+	for smallfitz@hotmail.fr; Sat, 29 Jun 2013 03:54:12 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_Comp=E9tence_:_Connaissance_des_Monstres_1_su?=  =?iso-8859-1?Q?r_une_Gargouille_[Nouvelle]_(4728832)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sat, 29 Jun 2013 03:54:12 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <ef91f812aa264c9688df92c4be6a9178@games.mountyhall.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 29 Jun 2013 01:54:13.0104 (UTC) FILETIME=[8DE1EF00:01CE746B]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMPETENCE.
+Il était alors aux alentours de : 29/06/2013 03:54:12.
+***********************************************************
+
+Vous avez utilisé CONNAISSANCE DES MONSTRES sur une Gargouille [Nouvelle] (4728832)
+
+Le Monstre ciblé fait partie des : Monstre
+
+Niveau :		Faible (entre 2 et 4)
+Points de Vie :	Fort (entre 55 et 75)
+Blessure :		0 % (approximativement)
+Dés d'Attaque :	Moyen (entre 3 et 5)
+Dés d'Esquive :	Moyen (entre 3 et 5)
+Dés de Dégât :	Moyen (entre 4 et 6)
+Dés de Régén. :	Faible (inférieur à 1) 
+Armure :		Remarquable (entre 9 et 11)
+Vue :			Très Faible (inférieur à 2) 
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensKMvPmf3fenfg+Yh6YAmvMlvrO+jvPOi58kSh5ocr4YISGr+bxFItnTN3Et/JhfNZjHbUBdkmJXGy/oeKe/SREzGy1poQQOBYrAUxTK+Pd+0=
+Authentication-Results: hotmail.com; spf=none (sender IP is 109.69.220.90) smtp.mailfrom=www-data@games.mountyhall.com; dkim=none header.d=mountyhall.com; x-hmca=none header.id=bot@mountyhall.com
+X-SID-PRA: bot@mountyhall.com
+X-AUTH-Result: NONE
+X-SID-Result: NONE
+X-Message-Status: n:n
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+X-Message-Info: aKlYzGSc+LntszwVaofz52TDaA6FV7dZJnXzC5eP9cwLj+BXAOdtzzhF+aR/086zeFNM9vBnZ71Htl+Mj/7pd3l6Z06j1o3I+XYQV2GDM/n9xD2KaLLcidGm+b59hf4gGCgJQb1SQXj1O+T/cLEJEdDIB204omHyWSECkuUuPEA=
+Received: from games.mountyhall.com ([109.69.220.90]) by SNT0-MC3-F10.Snt0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4900);
+	 Sat, 29 Jun 2013 01:53:50 -0700
+Received: from www-data by games.mountyhall.com with local (Exim 4.72)
+	(envelope-from <www-data@games.mountyhall.com>)
+	id 1Usquj-0001KQ-L5
+	for smallfitz@hotmail.fr; Sat, 29 Jun 2013 10:53:49 +0200
+To: smallfitz@hotmail.fr
+Subject: =?iso-8859-1?Q?[MountyHall]_Comp=E9tence_:_Connaissance_des_Monstres_1_su?=  =?iso-8859-1?Q?r_un_Champi-Glouton_[Nouveau]_(4728915)?=
+X-PHP-Originating-Script: 1003:class.phpmailer.php
+Date: Sat, 29 Jun 2013 10:53:49 +0200
+From: MountyHall-Bot <bot@mountyhall.com>
+Message-ID: <b5f190ad726379484e63516d9b51a5e9@games.mountyhall.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+Return-Path: www-data@games.mountyhall.com
+X-OriginalArrivalTime: 29 Jun 2013 08:53:50.0912 (UTC) FILETIME=[2D068C00:01CE74A6]
+
+================================
+MOUNTYHALL - La Terre des Trõlls
+================================
+
+Trõll n°107756 : SmallFitz
+
+Vous avez été impliqué dans un événement : COMPETENCE.
+Il était alors aux alentours de : 29/06/2013 10:53:49.
+***********************************************************
+
+Vous avez utilisé CONNAISSANCE DES MONSTRES sur un Champi-Glouton [Nouveau] (4728915)
+
+Le Monstre ciblé fait partie des : Humanoide
+
+Niveau :		Faible (inférieur à 3) 
+Points de Vie :	Faible (entre 10 et 30)
+Blessure :		0 % (approximativement)
+Dés d'Attaque :	Faible (entre 2 et 4)
+Dés d'Esquive :	Faible (entre 2 et 4)
+Dés de Dégât :	Faible (entre 2 et 4)
+Dés de Régén. :	Moyen (inférieur à 2) 
+Armure :		Très Faible (inférieur à 1) 
+Vue :			Moyen (entre 3 et 5)
+Capacité spéciale : Spores - Affecte : Dégats | Régénération | Vue | Durée 2 tour(s)
+
+
+***********************************************************
+Vous avez configuré votre compte pour recevoir un Email
+ lorsque votre Trõll est impliqué dans un événement.
+Si vous ne désirez plus recevoir ces Emails, veuillez changer
+ cette configuration dans le profil de votre Trõll.
+
+Le Site        : http://www.mountyhall.com
+Pour Jouer     : http://games.mountyhall.com
+Des Questions  : http://www.mountyhall.com/Forum
+***********************************************************
