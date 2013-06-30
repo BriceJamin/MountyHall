@@ -13,7 +13,9 @@ class NetworkDownloader : public QObject
 public:
     NetworkDownloader(QObject* =0);
     bool get(const QString&, const QString&);
-    bool get(const QString&, const QString&, const QMap<QString, QString>&);
+    bool send(const QString&, const QString&);
+    void addGet(QString, QString);
+    void addPost(QString, QString);
 
 signals:
     void sig_bytesReceived(qint64);
@@ -24,6 +26,7 @@ signals:
 private:
     void setBytesReceived(qint64);
     void setBytesTotal(qint64);
+    bool send(QString, QString, QString);
 
 private slots:
     void downloadProgress(qint64, qint64);
@@ -34,6 +37,8 @@ private:
     QString _fileName;
     qint64 _bytesReceived;
     qint64 _bytesTotal;
+    QMap<QString,QString> _getMap;
+    QMap<QString,QString> _postMap;
 };
 
 #endif // NETWORKDOWNLOADER_H

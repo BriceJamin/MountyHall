@@ -51,22 +51,33 @@ void MainWindow::on_pushButton_clicked()
 
     QString urlString, fileName;
     QString getName, getValue;
-    QMap <QString, QString> getNameValueMap;
+    QString postName1, postValue1;
+    QString postName2, postValue2;
 
-    urlString = ui->lineEdit->text();
-    fileName = ui->lineEdit_2->text();
-    getName = ui->lineEdit_3->text();
-    getValue = ui->lineEdit_4->text();
+    urlString = ui->urlLineEdit->text();
+    fileName = ui->fileNameLineEdit->text();
 
-    if(!getName.isEmpty())
-        getNameValueMap.insert(getName, getValue);
+    getName = ui->getNameLineEdit->text();
+    getValue = ui->getValueLineEdit->text();
+    qDebug() << Q_FUNC_INFO << getName << getValue;
+    _networkDownloader->addGet(getName, getValue);
 
-    _networkDownloader->get(urlString, fileName, getNameValueMap);
+    postName1 = ui->postName1LineEdit->text();
+    postValue1 = ui->postValue1LineEdit->text();
+    qDebug() << Q_FUNC_INFO << postName1 << postValue1;
+    _networkDownloader->addPost(postName1, postValue1);
+
+    postName2 = ui->postName2LineEdit->text();
+    postValue2 = ui->postValue2LineEdit->text();
+    qDebug() << Q_FUNC_INFO << postName2 << postValue2;
+    _networkDownloader->addPost(postName2, postValue2);
+
+    _networkDownloader->send(urlString, fileName);
 }
 
 void MainWindow::bytesReceived(qint64 bytesReceived)
 {
-    qDebug() << Q_FUNC_INFO << bytesReceived;
+    //qDebug() << Q_FUNC_INFO << bytesReceived;
 
 /*    qDebug() << Q_FUNC_INFO
              << "value:" << ui->progressBar->value()
@@ -91,7 +102,7 @@ void MainWindow::bytesReceived(qint64 bytesReceived)
 
 void MainWindow::bytesTotal(qint64 bytesTotal)
 {
-    qDebug() << Q_FUNC_INFO << bytesTotal;
+    //qDebug() << Q_FUNC_INFO << bytesTotal;
 
     if(bytesTotal <= 0)
         ui->progressBar->setFormat("(%v o/?)");
