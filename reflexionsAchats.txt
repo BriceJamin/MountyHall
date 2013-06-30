@@ -45,10 +45,10 @@ Le PM est grandement influencé par le nombre de zones de vue.
 31-39   :       6
 
 * Il influence son jet d'attaque :
-Jet d'Attaque : Zones * 1 D6 + BMM d'ATT
+Jet d'Attaque : Vue * 1 D6 + BMM d'ATT
 
 * Il influence son jet de dégâts :
-Jet de Dégâts : Zones/2 * 1 D3 + BMM de DEG
+Jet de Dégâts : Vue/2 * 1 D3 + BMM de DEG
 D'où l'intérêt d'avoir un nombre de zones de vue pair pour les dégâts.
 
 Ensuite il faut se focaliser dans un premier temps sur le côté offensif des 
